@@ -1,0 +1,8 @@
+CREATE TABLE `tarea obligatoria unidad 11`.`clientes` (`id` INT(11) NULL AUTO_INCREMENT , `nombre` VARCHAR(40) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL , `apellido` VARCHAR(40) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL , `edad` TINYINT(2) NULL , `fecha` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP , `provincia` VARCHAR(30) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('1', 'Paula', 'Rodríguez', '35', current_timestamp(), 'San Luis');
+SELECT * FROM `clientes`
+INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('2', 'Ricardo', 'Basualdo', '42', current_timestamp(), 'Buenos Aires');
+INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('3', 'Joaquín', 'Maglione', '59', current_timestamp(), 'Catamarca');
+INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('4', 'Andrea', 'Colombres', '74', current_timestamp(), 'Misiones');
+INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('5', 'Pedro', 'Alvarado', '37', current_timestamp(), 'Córdoba');
+SELECT * FROM `clientes`
